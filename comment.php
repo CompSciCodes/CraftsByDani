@@ -1,9 +1,10 @@
 <html>
 <body>
 
-Welcome <?php echo $_POST["fname"]; ?> <?php echo $_POST["lname"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; ?>
-Your product category of inquiry is: <?php echo $_POST["product"]; ?>
+First Name: <?php echo $_POST["fname"]; ?> 
+Last Name: <?php echo $_POST["lname"]; ?><br>
+Your email address is: <?php echo $_POST["email"]; ?><br>
+Your product category of inquiry is: <?php echo $_POST["product"]; ?><br>
 Question or Comment: <?php echo $_POST["comment"]; ?>
   
 
